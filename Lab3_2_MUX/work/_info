@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\NTI\Lab3_2
+vmultiplexor
+!i10b 1
+!s100 YdTAlPMPI>[=YAXP9G5^e3
+IY3O1V_68EQc<Dcm5OFC1@3
+VY;j>QDaoH[WB_58B6J1<@1
+Z1 dD:\NTI\Lab3_2
+w1783966787
+8D:/NTI/Lab3_2/MUX.v
+FD:/NTI/Lab3_2/MUX.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1783966850.266000
+!s107 D:/NTI/Lab3_2/MUX.v|
+!s90 -reportprogress|300|-work|work|D:/NTI/Lab3_2/MUX.v|
+!s101 -O0
+Z3 o-work work -O0
+vmultiplexor_test
+Z4 IfE715=TQ^@zdT7o70LNeA0
+Z5 VL8XZS7ghe273TjYUbHGXG2
+R1
+Z6 w1783966695
+Z7 8D:/NTI/Lab3_2/multiplexor_test.v
+Z8 FD:/NTI/Lab3_2/multiplexor_test.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+Z9 !s100 VJRg2FY]2[Yf1TPj;G@n<0
+!s85 0
+Z10 !s108 1783966840.065000
+Z11 !s107 D:/NTI/Lab3_2/multiplexor_test.v|
+Z12 !s90 -reportprogress|300|-work|work|D:/NTI/Lab3_2/multiplexor_test.v|
+!s101 -O0

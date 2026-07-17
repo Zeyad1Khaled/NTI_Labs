@@ -1,0 +1,9 @@
+module alu #(parameter WIDTH=8)(
+  input [WIDTH-1:0]in_a,in_b,
+  input [2:0]opcode,
+  output reg a_is_zero,
+  output reg [WIDTH-1:0] alu_out
+  
+);
+
+endmodule

@@ -1,0 +1,15 @@
+D:/NTI/Lab7_2_Register/register_test.v {1 {vlog -work work D:/NTI/Lab7_2_Register/register_test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module register_test
+
+Top level modules:
+	register_test
+
+} {} {}} D:/NTI/Lab7_2_Register/register.v {1 {vlog -work work D:/NTI/Lab7_2_Register/register.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}}

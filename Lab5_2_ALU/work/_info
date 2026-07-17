@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\NTI\Lab5_2
+valu
+!i10b 1
+!s100 @bIki72@GD?n]b44i]lcC1
+I:Qjc[O`VZeia[GC[c2mJb2
+Z1 Va<BK7BP_P>5;m13]a?0d90
+Z2 dD:\NTI\Lab5_2
+w1783969283
+Z3 8D:/NTI/Lab5_2/ALU.v
+Z4 FD:/NTI/Lab5_2/ALU.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1783969285.593000
+!s107 D:/NTI/Lab5_2/ALU.v|
+Z6 !s90 -reportprogress|300|-work|work|D:/NTI/Lab5_2/ALU.v|
+!s101 -O0
+Z7 o-work work -O0
+valu_test
+Z8 IFzKO<AlU]hS=3ZdOh:X9M2
+Z9 Vjfh^imoK[J25gP53WS`?31
+R2
+Z10 w1783968533
+Z11 8D:/NTI/Lab5_2/alu_test.v
+Z12 FD:/NTI/Lab5_2/alu_test.v
+L0 1
+R5
+r1
+31
+R7
+!i10b 1
+Z13 !s100 f;hm2dERlEk7QB<:Y<ogP1
+!s85 0
+Z14 !s108 1783969277.874000
+Z15 !s107 D:/NTI/Lab5_2/alu_test.v|
+Z16 !s90 -reportprogress|300|-work|work|D:/NTI/Lab5_2/alu_test.v|
+!s101 -O0

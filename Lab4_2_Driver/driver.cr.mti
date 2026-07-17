@@ -1,0 +1,15 @@
+D:/NTI/Lab4_2/driver_test.v {1 {vlog -work work D:/NTI/Lab4_2/driver_test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module driver_test
+
+Top level modules:
+	driver_test
+
+} {} {}} D:/NTI/Lab4_2/driver.v {1 {vlog -work work D:/NTI/Lab4_2/driver.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module driver
+
+Top level modules:
+	driver
+
+} {} {}}

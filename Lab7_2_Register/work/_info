@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\NTI\Lab7_2_Register
+vcontroller
+!i10b 1
+!s100 4_8JLd?WMATeZ_:KTgmIM3
+I6Hgk;<n7Ee<7IH5hMmZT>3
+V=[HNo35WiR6FGIkQWjfDk2
+Z1 dD:\NTI\Lab7_2_Register
+w1783971539
+8D:/NTI/Lab7_2_Register/control.v
+FD:/NTI/Lab7_2_Register/control.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1783971541.227000
+!s107 D:/NTI/Lab7_2_Register/control.v|
+!s90 -reportprogress|300|-work|work|D:/NTI/Lab7_2_Register/control.v|
+!s101 -O0
+Z3 o-work work -O0
+vcontroller_test
+Z4 IQln8dfkM69999n@7oUoXC2
+Z5 VgUcB?^4]Z<`@9]3YE;SbR0
+R1
+Z6 w1783970596
+Z7 8D:/NTI/Lab6_2_Microcontroller/controller_test.v
+Z8 FD:/NTI/Lab6_2_Microcontroller/controller_test.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+Z9 !s100 EihcIb^1_6_lG><`z0dKS0
+!s85 0
+Z10 !s108 1783971355.887000
+Z11 !s107 D:/NTI/Lab6_2_Microcontroller/controller_test.v|
+Z12 !s90 -reportprogress|300|-work|work|D:/NTI/Lab6_2_Microcontroller/controller_test.v|
+!s101 -O0
+vregister
+Z13 !s100 2^<ST?<TjoB2F=coJ;ji:2
+Z14 I15?Pk<1_b]ZL4f9>En[MQ2
+Z15 V>LMSF6WL`0lG;B<?H?En]0
+R1
+Z16 w1783970212
+Z17 8D:/NTI/Lab7_2_Register/register.v
+Z18 FD:/NTI/Lab7_2_Register/register.v
+L0 1
+R2
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|D:/NTI/Lab7_2_Register/register.v|
+R3
+Z20 !s108 1783970216.424000
+Z21 !s107 D:/NTI/Lab7_2_Register/register.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregister_test
+Z22 !s100 `=XK`5aJ0IRE2cj>F;;PD2
+Z23 IlZBUe6mT9n?KLP^^43=b^3
+Z24 V0A:]5`]?e3BzMnNUg3Foo1
+R1
+Z25 w1783969716
+Z26 8D:/NTI/Lab7_2_Register/register_test.v
+Z27 FD:/NTI/Lab7_2_Register/register_test.v
+L0 1
+R2
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|D:/NTI/Lab7_2_Register/register_test.v|
+R3
+Z29 !s108 1783970744.294000
+Z30 !s107 D:/NTI/Lab7_2_Register/register_test.v|
+!i10b 1
+!s85 0
+!s101 -O0

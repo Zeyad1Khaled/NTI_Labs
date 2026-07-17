@@ -1,0 +1,15 @@
+D:/NTI/Lab5_2/alu_test.v {1 {vlog -work work D:/NTI/Lab5_2/alu_test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu_test
+
+Top level modules:
+	alu_test
+
+} {} {}} D:/NTI/Lab5_2/ALU.v {1 {vlog -work work D:/NTI/Lab5_2/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}

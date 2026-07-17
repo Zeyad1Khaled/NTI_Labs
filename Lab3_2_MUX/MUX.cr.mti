@@ -1,0 +1,15 @@
+D:/NTI/Lab3_2/multiplexor_test.v {1 {vlog -work work D:/NTI/Lab3_2/multiplexor_test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module multiplexor_test
+
+Top level modules:
+	multiplexor_test
+
+} {} {}} D:/NTI/Lab3_2/MUX.v {1 {vlog -work work D:/NTI/Lab3_2/MUX.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module multiplexor
+
+Top level modules:
+	multiplexor
+
+} {} {}}

@@ -1,0 +1,15 @@
+D:/NTI/Lab6_2_Microcontroller/controller_test.v {1 {vlog -work work D:/NTI/Lab6_2_Microcontroller/controller_test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controller_test
+
+Top level modules:
+	controller_test
+
+} {} {}} D:/NTI/Lab7_2_Register/control.v {1 {vlog -work work D:/NTI/Lab7_2_Register/control.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}}
