@@ -1,0 +1,61 @@
+module PISO #(parameter WIDTH=20,parameter ADDR_WIDTH = 8
+)(
+  input clk,
+  input rst_n,
+  input [WIDTH-1:0] parallel_in,
+  input ram_valid,
+  
+  output reg en,
+  output reg serial_out,
+  output reg valid,
+  output reg [ADDR_WIDTH-1:0] addr
+
+);
+reg [4:0] count;
+reg [WIDTH-1:0] shift_register;
+reg loading;
+
+always@(posedge clk or negedge rst_n)begin
+  if(!rst_n)begin
+    serial_out<=1'b0;
+    en<=1;
+    count<=0;
+    valid<=0;
+    loading<=0;
+    addr <= 0;
+end
+
+else if(ram_valid && !loading) begin
+    shift_register <= parallel_in;
+    loading <= 1;
+    en <= 0;
+    count <= 0;
+    valid <= 0;    
+end
+else if (loading)begin
+  serial_out<=shift_register[WIDTH-1];
+  shift_register<={shift_register[WIDTH-2:0],1'b0};
+  count<=count+1;
+  valid<=1;
+  en<=0;
+    if (count==WIDTH-1)begin
+      loading<=0;
+      en<=1;
+      count<=0;
+      addr<=addr+1;
+      // do NOT touch valid or serial_out here
+    end
+end
+else begin
+    valid <= 0;
+    serial_out <= 0;
+end
+
+  
+  $display("time=%0t loading=%b count=%0d valid=%b en=%b ram_valid=%b",
+         $time, loading, count, valid, en, ram_valid);
+  
+end
+
+
+endmodule

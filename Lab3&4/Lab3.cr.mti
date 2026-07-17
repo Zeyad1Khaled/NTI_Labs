@@ -1,0 +1,43 @@
+D:/NTI/Lab3&4/ALU.v {1 {vlog -work work D:/NTI/Lab3&4/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/NTI/Lab3&4/ALU_tb.v {1 {vlog -work work D:/NTI/Lab3&4/ALU_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TOP_MODULE_tb
+
+Top level modules:
+	TOP_MODULE_tb
+
+} {} {}} D:/NTI/Lab3&4/SIPO.v {1 {vlog -work work D:/NTI/Lab3&4/SIPO.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SIPO
+
+Top level modules:
+	SIPO
+
+} {} {}} D:/NTI/Lab3&4/PISO.v {1 {vlog -work work D:/NTI/Lab3&4/PISO.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module PISO
+
+Top level modules:
+	PISO
+
+} {} {}} D:/NTI/Lab3&4/TOP_MODULE.v {1 {vlog -work work D:/NTI/Lab3&4/TOP_MODULE.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TOP_MODULE
+
+Top level modules:
+	TOP_MODULE
+
+} {} {}} D:/NTI/Lab3&4/RAM.v {1 {vlog -work work D:/NTI/Lab3&4/RAM.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}}

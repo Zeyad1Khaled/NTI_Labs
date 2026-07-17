@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\NTI\Lab3
+vALU
+Z1 !s100 5Ljcenmfl<AhM:QL36f?i0
+Z2 IoZN=kfC0k5=0_HF<DD6^:3
+Z3 VM04<<TMT?z?G:gHhM@6SA2
+Z4 dD:\NTI\Lab3&4
+Z5 w1784223532
+Z6 8D:/NTI/Lab3&4/ALU.v
+Z7 FD:/NTI/Lab3&4/ALU.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/NTI/Lab3&4/ALU.v|
+Z10 o-work work -O0
+Z11 n@a@l@u
+Z12 !s108 1784234504.933000
+Z13 !s107 D:/NTI/Lab3&4/ALU.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vPISO
+Z14 !s100 dWL0W6gZJUTenTX[lN^2]0
+Z15 I_Hkm^5B1XCnXR6d8oFdZV0
+Z16 VTm1hk72V9iOPGU^5OLEI_0
+R4
+Z17 w1784233247
+Z18 8D:/NTI/Lab3&4/PISO.v
+Z19 FD:/NTI/Lab3&4/PISO.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|D:/NTI/Lab3&4/PISO.v|
+R10
+Z21 n@p@i@s@o
+Z22 !s108 1784234504.993000
+Z23 !s107 D:/NTI/Lab3&4/PISO.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRAM
+Z24 !s100 [`o3z@k1cV;?h4`z>ak6g2
+Z25 In_e12mgbfgA_^2f=aO]Gi0
+Z26 VzOH6HKIT`VnIZ]Ni0YAjI1
+R4
+Z27 w1784233087
+Z28 8D:/NTI/Lab3&4/RAM.v
+Z29 FD:/NTI/Lab3&4/RAM.v
+L0 1
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|D:/NTI/Lab3&4/RAM.v|
+R10
+Z31 n@r@a@m
+Z32 !s108 1784234505.054000
+Z33 !s107 D:/NTI/Lab3&4/RAM.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSIPO
+Z34 !s100 SliQj^gQPOR:XzR4KVALR0
+Z35 I[ckCzkeU1MMkPI:K63EWn1
+Z36 Vi>nTg47b>d?H8izfVBJQ33
+R4
+Z37 w1783945992
+Z38 8D:/NTI/Lab3&4/SIPO.v
+Z39 FD:/NTI/Lab3&4/SIPO.v
+L0 1
+R8
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|D:/NTI/Lab3&4/SIPO.v|
+R10
+Z41 n@s@i@p@o
+Z42 !s108 1784234505.114000
+Z43 !s107 D:/NTI/Lab3&4/SIPO.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTOP_MODULE
+Z44 !s100 _H0XUhA]T_:AeA=1FJ<kz0
+Z45 IbiFW5PKDDkh3PE::=hoEG2
+Z46 VT>;6@UB?@d`DBHWUj51R^2
+R4
+Z47 w1784223840
+Z48 8D:/NTI/Lab3&4/TOP_MODULE.v
+Z49 FD:/NTI/Lab3&4/TOP_MODULE.v
+L0 1
+R8
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|D:/NTI/Lab3&4/TOP_MODULE.v|
+R10
+Z51 n@t@o@p_@m@o@d@u@l@e
+!i10b 1
+!s85 0
+Z52 !s108 1784234505.167000
+Z53 !s107 D:/NTI/Lab3&4/TOP_MODULE.v|
+!s101 -O0
+vTOP_MODULE_tb
+!i10b 1
+!s100 @54>K9X]Q9QP:1^NU:dEI3
+I3D?bN80WM1ch7BZGcFQjZ0
+Z54 VS>BIHJF54X1zhPhaD[I6g1
+R4
+w1784234488
+Z55 8D:/NTI/Lab3&4/ALU_tb.v
+Z56 FD:/NTI/Lab3&4/ALU_tb.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1784234505.221000
+!s107 D:/NTI/Lab3&4/ALU_tb.v|
+Z57 !s90 -reportprogress|300|-work|work|D:/NTI/Lab3&4/ALU_tb.v|
+!s101 -O0
+R10
+Z58 n@t@o@p_@m@o@d@u@l@e_tb
