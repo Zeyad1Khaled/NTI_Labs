@@ -1,0 +1,63 @@
+module controller(
+  
+    input [2:0] opcode ,
+    input [2:0] phase,
+    input zero,
+    
+    output reg sel,
+    output reg rd,ld_ir,inc_pc ,halt,
+    output reg ld_pc,data_e,ld_ac,wr      
+  );
+    always @(*) begin 
+      
+        case (phase)
+            3'b000:begin
+                {rd,ld_ir,halt,inc_pc,ld_ac,ld_pc,wr,data_e}='b0;
+                sel=1;
+            end
+            3'b001:begin
+                {ld_ir,halt,inc_pc,ld_ac,ld_pc,wr,data_e}='b0;
+                sel=1; rd=1;
+            end
+            3'b010:begin
+                sel=1;
+                rd=1;
+                ld_ir=1;
+                {halt,inc_pc,ld_ac,ld_pc,wr,data_e}='b0;
+            end
+            3'b011:begin
+                sel=1;
+                rd=1;
+                ld_ir=1;
+                {halt,inc_pc,ld_ac,ld_pc,wr,data_e}='b0;
+            end
+            3'b100:begin
+                inc_pc=1;
+                halt=(opcode==0);
+                {sel,rd,ld_ir,ld_ac,ld_pc,wr,data_e}='b0;
+            end
+            3'b101:begin
+                rd=(opcode>=2&&opcode<=5);
+                {sel,ld_ir,halt,inc_pc,ld_ac,ld_pc,wr,data_e}='b0;
+            end
+            3'b110:begin
+                rd=(opcode>=2&&opcode<=5);
+                inc_pc=(opcode==1&&zero);
+                ld_pc=(opcode==7);
+                data_e=(opcode==6);
+                {sel,ld_ir,halt,ld_ac,wr}='b0;
+            end
+            3'b111:begin
+                rd=(opcode>=2&&opcode<=5);
+                ld_ac=(opcode>=2&&opcode<=5);
+                ld_pc=(opcode==7);
+                wr=(opcode==6);
+                data_e=(opcode==6);
+                {sel,ld_ir,inc_pc,halt}='b0;
+            end
+            default:{sel,rd,ld_ir,halt,inc_pc,ld_ac,ld_pc,wr,data_e}='b0;
+        endcase
+        end
+    
+
+endmodule

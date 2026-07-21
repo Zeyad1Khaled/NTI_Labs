@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\NTI\Controller
+vcontroller
+!i10b 1
+!s100 [AiF_@<7T]^YzFOg>g;>P0
+IXB<ciR2fRm>_RBleh94X[0
+Z1 V=[HNo35WiR6FGIkQWjfDk2
+Z2 dD:\NTI\Controller
+w1784673432
+Z3 8D:/NTI/Controller/controller.v
+Z4 FD:/NTI/Controller/controller.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1784673437.233000
+!s107 D:/NTI/Controller/controller.v|
+Z6 !s90 -reportprogress|300|-work|work|D:/NTI/Controller/controller.v|
+!s101 -O0
+Z7 o-work work -O0
+vcontroller_test
+Z8 !s100 NUoe?01JEkDc9BT_9jmRY3
+Z9 Ik3l=TzTnmbCe<aL]gbX?i3
+Z10 VgUcB?^4]Z<`@9]3YE;SbR0
+R2
+Z11 w1784672955
+Z12 8D:/NTI/Controller/controller_test.v
+Z13 FD:/NTI/Controller/controller_test.v
+L0 1
+R5
+r1
+31
+Z14 !s90 -reportprogress|300|-work|work|D:/NTI/Controller/controller_test.v|
+R7
+!i10b 1
+!s85 0
+Z15 !s108 1784673402.612000
+Z16 !s107 D:/NTI/Controller/controller_test.v|
+!s101 -O0

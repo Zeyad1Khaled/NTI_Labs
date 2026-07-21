@@ -1,0 +1,20 @@
+module memory #(parameter AWIDTH=5,DWIDTH=8)(
+  input wire wr,rd,
+  input addr,
+  input clk,
+  
+  inout reg data
+);
+reg [DWIDTH-1:0] memory [0:AWIDTH-1];
+
+always@(posedge clk)begin
+  
+  if(wr && !rd)begin
+    memory[addr]<=data;
+  end
+  if(!wr && rd)begin
+    data<=memory[addr];
+  end
+  
+end
+endmodule

@@ -1,0 +1,36 @@
+D:/NTI/Up_DN_Counter/behavioral.v {1 {vlog -work work D:/NTI/Up_DN_Counter/behavioral.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter2_behavioral
+
+Top level modules:
+	counter2_behavioral
+
+} {} {}} D:/NTI/Up_DN_Counter/Structural.v {1 {vlog -work work D:/NTI/Up_DN_Counter/Structural.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter2_structural
+
+Top level modules:
+	counter2_structural
+
+} {} {}} D:/NTI/Up_DN_Counter/Tb.v {1 {vlog -work work D:/NTI/Up_DN_Counter/Tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Tb
+
+Top level modules:
+	Tb
+
+} {} {}} D:/NTI/Up_DN_Counter/D_FF.v {1 {vlog -work work D:/NTI/Up_DN_Counter/D_FF.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} D:/NTI/Up_DN_Counter/Gate_level.v {1 {vlog -work work D:/NTI/Up_DN_Counter/Gate_level.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter2_gate
+
+Top level modules:
+	counter2_gate
+
+} {} {}}

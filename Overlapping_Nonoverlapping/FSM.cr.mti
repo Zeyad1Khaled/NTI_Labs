@@ -1,0 +1,15 @@
+D:/NTI/Overlapping_Nonoverlapping/NonOverlapping.v {1 {vlog -work work {D:\NTI\Overlapping_Nonoverlapping\NonOverlapping.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module overlapping
+
+Top level modules:
+	overlapping
+
+} {} {}} D:/NTI/Overlapping_Nonoverlapping/Overlapping.v {1 {vlog -work work {D:\NTI\Overlapping_Nonoverlapping\Overlapping.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module overlapping
+
+Top level modules:
+	overlapping
+
+} {} {}}

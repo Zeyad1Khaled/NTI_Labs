@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\NTI
+vParity_TBs
+!i10b 1
+!s100 B0U7D^3f>KaHYdYgmlLZ`1
+I;f@SFkQSTIz`1]JD7a]JI0
+Z1 V75mBd_G[kFU7C5agCMJgM2
+Z2 dD:\NTI\stream_parity_gen
+w1784576610
+Z3 8D:/NTI/stream_parity_gen/Parity_TBs.v
+Z4 FD:/NTI/stream_parity_gen/Parity_TBs.v
+L0 2
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1784576622.175000
+!s107 D:/NTI/stream_parity_gen/Parity_TBs.v|
+Z6 !s90 -reportprogress|300|-work|work|D:/NTI/stream_parity_gen/Parity_TBs.v|
+!s101 -O0
+Z7 o-work work -O0
+Z8 n@parity_@t@bs
+vstream_parity_gen
+Z9 !s100 GKbghJGNiXL:F<I41la620
+Z10 I=QcF=Z>g>geAENdkKcfIU1
+Z11 VVVBeJk5A]8CRJ;I:]6h^S2
+R2
+Z12 w1784576333
+Z13 8D:/NTI/stream_parity_gen/stream_parity_gen.v
+Z14 FD:/NTI/stream_parity_gen/stream_parity_gen.v
+L0 1
+R5
+r1
+31
+Z15 !s90 -reportprogress|300|-work|work|D:/NTI/stream_parity_gen/stream_parity_gen.v|
+R7
+Z16 !s108 1784576336.861000
+Z17 !s107 D:/NTI/stream_parity_gen/stream_parity_gen.v|
+!i10b 1
+!s85 0
+!s101 -O0

@@ -1,0 +1,68 @@
+`timescale 1ns/1ps
+
+module Tb;
+reg clock_t;
+reg reset_t;
+reg up_t;
+wire [1:0] count_t;
+integer i;
+
+/*counter2_behavioral U1 (
+.clock(clock_t),
+.reset(reset_t),
+.up(up_t),
+.count(count_t)
+);
+*/
+
+/*
+counter2_structural U2 (
+.clock(clock_t),
+.reset(reset_t),
+.up(up_t),
+.count(count_t)
+);
+*/
+
+
+counter2_gate U3 (
+.clock(clock_t),
+.reset(reset_t),
+.up(up_t),
+.count(count_t)
+);
+
+task test_counter;
+  input up_value;
+  integer i;
+  begin
+    up_t=up_value;
+    for(i=0;i<4;i=i+1)begin
+      @(posedge clock_t);
+    end
+  end
+  
+endtask
+
+always #5 clock_t=~clock_t;
+
+initial begin
+   $monitor("Time=%0t Reset=%b Up=%b Count=%b",
+             $time, reset_t, up_t, count_t);
+  reset_t=1;
+  clock_t=0;
+  up_t=0;
+  
+  @(negedge clock_t);
+  reset_t=0;
+  
+  @(negedge clock_t);
+  test_counter(0);
+  
+  @(negedge clock_t);
+  test_counter(1);
+  #10;
+  $stop;
+end
+
+endmodule

@@ -1,0 +1,15 @@
+D:/NTI/Bidirectional_memory_lab8/Birectional.v {1 {vlog -work work D:/NTI/Bidirectional_memory_lab8/Birectional.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} D:/NTI/Bidirectional_memory_lab8/memory_test.v {1 {vlog -work work D:/NTI/Bidirectional_memory_lab8/memory_test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module memory_test
+
+Top level modules:
+	memory_test
+
+} {} {}}

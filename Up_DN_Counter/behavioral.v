@@ -1,0 +1,20 @@
+module counter2_behavioral (
+    input clock,
+    input reset,    // asynchronous, active-high
+    input up,       // 1 = count up, 0 = count down
+    output reg [1:0] count
+);
+
+always@(posedge clock or posedge reset)begin
+  if(reset)begin
+    count<='b0;
+  end
+else if(up)begin
+  count<=count+1;
+end
+else
+  count<=count-1;
+    
+  
+end
+endmodule
