@@ -1,0 +1,29 @@
+# ModelSim / QuestaSim generated artifacts
+work/
+_transcript/
+transcript
+*.wlf
+*.cr.mti
+*.mti
+*.mtilib
+modelsim.ini
+*.opt
+*.psm
+*.prw
+
+# Icarus Verilog output
+*.vvp
+*.out
+*.fst
+*.lxt
+*.lxt2
+
+# Editor backup and swap files
+*.bak
+*.orig
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
