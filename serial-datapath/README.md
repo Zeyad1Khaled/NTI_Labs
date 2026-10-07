@@ -43,9 +43,24 @@ The 20-bit word stored in RAM is interpreted by the ALU as follows:
 | Bits | Field |
 |---|---|
 | `[19]` | ALU enable |
-| `[18:16]` | ALU opcode (see `arithmetic-logic-unit` project) |
+| `[18:16]` | ALU opcode (table below) |
 | `[15:8]` | Operand A |
 | `[7:0]` | Operand B |
+
+### ALU opcode map (this project's ALU)
+
+| `opcode` | Operation |
+|---|---|
+| `000` | `in_a + in_b` |
+| `001` | `in_a - in_b` |
+| `010` | `in_a & in_b` |
+| `011` | `in_a ^ in_b` |
+| `100` | `in_a \| in_b` |
+| `101` | Pass A |
+| others | Zero (and the ALU is forced to zero when disabled) |
+
+Note that this ALU's opcode map differs from the standalone
+`arithmetic-logic-unit` project; `opcode = 000` here is ADD, not pass-through.
 
 The testbench writes `{1'b1, 3'b000, 8'd3, 8'd2}` to address 1, which enables
 the ALU and selects `3 + 2`.

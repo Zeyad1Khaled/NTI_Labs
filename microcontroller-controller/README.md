@@ -80,4 +80,8 @@ nine control outputs at every step, and prints `TEST PASSED` on success.
 The `microcontroller-register` project contains an alternate implementation of
 this same control unit (`control.v`) with an identical interface, written with
 named decode terms instead of concatenated assignments. The two implementations
-are interchangeable against this testbench.
+are behaviorally identical at every opcode/phase combination except one: at
+phase 4 (OP_ADDR) of HLT, this implementation asserts both `inc_pc` and
+`halt`, whereas `control.v` asserts `halt` alone. The testbench in this project
+encodes the former behavior and passes against `controller.v` for all 65
+opcode/phase checks.

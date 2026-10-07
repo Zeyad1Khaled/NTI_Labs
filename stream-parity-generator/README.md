@@ -25,9 +25,9 @@ sampled.
 ## Behavior
 
 On every rising edge the 8-bit shift register ingests `serial_in` (newest bit
-at position 0) and `parity_out` is registered as
-`shift_register[6:0] ^ serial_in`. Reset clears both the register and the
-parity output.
+at position 0) and `parity_out` is registered as the reduction XOR of
+`{shift_register[6:0], serial_in}` — that is, the parity of the new 8-bit
+window. Reset clears both the register and the parity output.
 
 Frames are presented MSB first: the testbench shifts in bit 7 down to bit 0,
 then checks `parity_out` one cycle later.

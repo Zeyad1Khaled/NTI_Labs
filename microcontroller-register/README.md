@@ -56,11 +56,15 @@ expects `0x00`, printing `TEST PASSED` on success.
 ## Notes
 
 - `sim/control-unit.mpf` compiles `src/control.v` together with
-  `../microcontroller-controller/tb/controller_tb.v`, the shared exhaustive
+  `../../microcontroller-controller/tb/controller_tb.v`, the shared exhaustive
   testbench for this control unit interface.
 - `src/register.v` was restored during the repository restructure from an
   editor backup; a `paramater` keyword typo in the backup was corrected.
 - The control unit here decodes opcodes through named intermediate signals
   (`HALT`, `SKZ`, `ALUOP`, `STO`, `JMP`), whereas
   `microcontroller-controller` builds the same signals with concatenated
-  assignments. Both satisfy the same testbench.
+  assignments. The two differ at exactly one point: at phase 4 of HLT,
+  `control.v` asserts `halt` without incrementing the program counter, while
+  the `microcontroller-controller` version asserts both. The shared testbench
+  expects both, so one of its 65 checks reports a mismatch when run against
+  `control.v`.
