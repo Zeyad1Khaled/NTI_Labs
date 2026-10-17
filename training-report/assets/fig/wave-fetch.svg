@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="412" viewBox="0 0 1000 412">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#16324F"/>
+</marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#1B6EB4"/>
+</marker>
+</defs>
+<rect width="1000" height="412" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="46" rx="0" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<rect x="0" y="46" width="1000" height="4" rx="0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="24" y="30" font-family="Montserrat" font-size="21" fill="#FFFFFF" text-anchor="start" font-weight="700">Simulation extract 1 — bit-serial fetch of one 20-bit instruction word</text>
+<line x1="150.0" y1="90" x2="150.0" y2="372" stroke="#D7E0E9" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 4"/>
+<text x="150.0" y="388" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">-4</text>
+<line x1="253.125" y1="90" x2="253.125" y2="372" stroke="#D7E0E9" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 4"/>
+<text x="253.125" y="388" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">12</text>
+<line x1="356.25" y1="90" x2="356.25" y2="372" stroke="#D7E0E9" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 4"/>
+<text x="356.25" y="388" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">28</text>
+<line x1="459.375" y1="90" x2="459.375" y2="372" stroke="#D7E0E9" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 4"/>
+<text x="459.375" y="388" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">44</text>
+<line x1="562.5" y1="90" x2="562.5" y2="372" stroke="#D7E0E9" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 4"/>
+<text x="562.5" y="388" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">60</text>
+<line x1="665.625" y1="90" x2="665.625" y2="372" stroke="#D7E0E9" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 4"/>
+<text x="665.625" y="388" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">77</text>
+<line x1="768.75" y1="90" x2="768.75" y2="372" stroke="#D7E0E9" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 4"/>
+<text x="768.75" y="388" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">93</text>
+<line x1="871.875" y1="90" x2="871.875" y2="372" stroke="#D7E0E9" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 4"/>
+<text x="871.875" y="388" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">109</text>
+<line x1="975.0" y1="90" x2="975.0" y2="372" stroke="#D7E0E9" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 4"/>
+<text x="975.0" y="388" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">125</text>
+<text x="975" y="404" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="end">time (ns)</text>
+<text x="20" y="123.0" font-family="JetBrains Mono" font-size="13.5" fill="#16324F" text-anchor="start" font-weight="600">clk</text>
+<line x1="150" y1="136" x2="975" y2="136" stroke="#D7E0E9" stroke-width="0.7" stroke-linecap="round"/>
+<polyline points="150.0,130 175.58139534883722,130 207.5581395348837,130 207.5581395348837,104 239.53488372093022,104 239.53488372093022,130 271.51162790697674,130 271.51162790697674,104 303.48837209302326,104 303.48837209302326,130 335.4651162790698,130 335.4651162790698,104 367.4418604651163,104 367.4418604651163,130 399.4186046511628,130 399.4186046511628,104 431.3953488372093,104 431.3953488372093,130 463.37209302325584,130 463.37209302325584,104 495.34883720930236,104 495.34883720930236,130 527.3255813953488,130 527.3255813953488,104 559.3023255813953,104 559.3023255813953,130 591.2790697674418,130 591.2790697674418,104 623.2558139534883,104 623.2558139534883,130 655.2325581395348,130 655.2325581395348,104 687.2093023255815,104 687.2093023255815,130 719.1860465116279,130 719.1860465116279,104 751.1627906976744,104 751.1627906976744,130 783.139534883721,130 783.139534883721,104 815.1162790697674,104 815.1162790697674,130 847.0930232558139,130 847.0930232558139,104 879.0697674418604,104 879.0697674418604,130 911.046511627907,130 911.046511627907,104 943.0232558139535,104 943.0232558139535,130 975.0,130 975.0,104 975.0,104" fill="none" stroke="#0B3C6E" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="20" y="169.0" font-family="JetBrains Mono" font-size="13.5" fill="#16324F" text-anchor="start" font-weight="600">en (load)</text>
+<line x1="150" y1="182" x2="975" y2="182" stroke="#D7E0E9" stroke-width="0.7" stroke-linecap="round"/>
+<polyline points="150.0,176 175.58139534883722,176 175.58139534883722,150 175.58139534883722,150 399.4186046511628,150 399.4186046511628,176 399.4186046511628,176 975.0,176" fill="none" stroke="#0B3C6E" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="20" y="215.0" font-family="JetBrains Mono" font-size="13.5" fill="#16324F" text-anchor="start" font-weight="600">PISO_out</text>
+<line x1="150" y1="228" x2="975" y2="228" stroke="#D7E0E9" stroke-width="0.7" stroke-linecap="round"/>
+<polyline points="150.0,222 175.58139534883722,222 175.58139534883722,222 463.37209302325584,222 463.37209302325584,196 463.37209302325584,196 527.3255813953488,196 527.3255813953488,222 527.3255813953488,222 975.0,222 975.0,196 975.0,196 975.0,196" fill="none" stroke="#0B3C6E" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="20" y="261.0" font-family="JetBrains Mono" font-size="13.5" fill="#16324F" text-anchor="start" font-weight="600">ram_dout</text>
+<line x1="150" y1="274" x2="975" y2="274" stroke="#D7E0E9" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="150.0" y1="255.0" x2="175.58139534883722" y2="255.0" stroke="#C0392B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+<polyline points="180.58139534883722,242 330.4651162790698,242 330.4651162790698,268 180.58139534883722,268 180.58139534883722,242" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="175.58139534883722" y1="242" x2="180.58139534883722" y2="255.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="175.58139534883722" y1="268" x2="180.58139534883722" y2="255.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="330.4651162790698" y1="255.0" x2="335.4651162790698" y2="242" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="330.4651162790698" y1="255.0" x2="335.4651162790698" y2="268" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="255.52325581395348" y="259.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">0</text>
+<polyline points="340.4651162790698,242 970.0,242 970.0,268 340.4651162790698,268 340.4651162790698,242" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="335.4651162790698" y1="242" x2="340.4651162790698" y2="255.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="335.4651162790698" y1="268" x2="340.4651162790698" y2="255.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="970.0" y1="255.0" x2="975.0" y2="242" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="970.0" y1="255.0" x2="975.0" y2="268" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="655.2325581395348" y="259.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">80A05</text>
+<text x="20" y="307.0" font-family="JetBrains Mono" font-size="13.5" fill="#16324F" text-anchor="start" font-weight="600">piso_addr</text>
+<line x1="150" y1="320" x2="975" y2="320" stroke="#D7E0E9" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="150.0" y1="301.0" x2="175.58139534883722" y2="301.0" stroke="#C0392B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+<polyline points="180.58139534883722,288 970.0,288 970.0,314 180.58139534883722,314 180.58139534883722,288" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="175.58139534883722" y1="288" x2="180.58139534883722" y2="301.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="175.58139534883722" y1="314" x2="180.58139534883722" y2="301.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="970.0" y1="301.0" x2="975.0" y2="288" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="970.0" y1="301.0" x2="975.0" y2="314" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="575.2906976744187" y="305.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">0</text>
+<text x="20" y="353.0" font-family="JetBrains Mono" font-size="13.5" fill="#16324F" text-anchor="start" font-weight="600">parallel_out</text>
+<line x1="150" y1="366" x2="975" y2="366" stroke="#D7E0E9" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="150.0" y1="347.0" x2="175.58139534883722" y2="347.0" stroke="#C0392B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+<polyline points="180.58139534883722,334 522.3255813953488,334 522.3255813953488,360 180.58139534883722,360 180.58139534883722,334" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="175.58139534883722" y1="334" x2="180.58139534883722" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="175.58139534883722" y1="360" x2="180.58139534883722" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="522.3255813953488" y1="347.0" x2="527.3255813953488" y2="334" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="522.3255813953488" y1="347.0" x2="527.3255813953488" y2="360" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="351.453488372093" y="351.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">0</text>
+<polyline points="532.3255813953488,334 586.2790697674418,334 586.2790697674418,360 532.3255813953488,360 532.3255813953488,334" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="527.3255813953488" y1="334" x2="532.3255813953488" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="527.3255813953488" y1="360" x2="532.3255813953488" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="586.2790697674418" y1="347.0" x2="591.2790697674418" y2="334" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="586.2790697674418" y1="347.0" x2="591.2790697674418" y2="360" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="559.3023255813953" y="351.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">1</text>
+<polyline points="596.2790697674418,334 650.2325581395348,334 650.2325581395348,360 596.2790697674418,360 596.2790697674418,334" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="591.2790697674418" y1="334" x2="596.2790697674418" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="591.2790697674418" y1="360" x2="596.2790697674418" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="650.2325581395348" y1="347.0" x2="655.2325581395348" y2="334" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="650.2325581395348" y1="347.0" x2="655.2325581395348" y2="360" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="623.2558139534883" y="351.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">2</text>
+<polyline points="660.2325581395348,334 714.1860465116279,334 714.1860465116279,360 660.2325581395348,360 660.2325581395348,334" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="655.2325581395348" y1="334" x2="660.2325581395348" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="655.2325581395348" y1="360" x2="660.2325581395348" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="714.1860465116279" y1="347.0" x2="719.1860465116279" y2="334" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="714.1860465116279" y1="347.0" x2="719.1860465116279" y2="360" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="687.2093023255813" y="351.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">4</text>
+<polyline points="724.1860465116279,334 778.139534883721,334 778.139534883721,360 724.1860465116279,360 724.1860465116279,334" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="719.1860465116279" y1="334" x2="724.1860465116279" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="719.1860465116279" y1="360" x2="724.1860465116279" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="778.139534883721" y1="347.0" x2="783.139534883721" y2="334" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="778.139534883721" y1="347.0" x2="783.139534883721" y2="360" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="751.1627906976744" y="351.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">8</text>
+<polyline points="788.139534883721,334 842.0930232558139,334 842.0930232558139,360 788.139534883721,360 788.139534883721,334" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="783.139534883721" y1="334" x2="788.139534883721" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="783.139534883721" y1="360" x2="788.139534883721" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="842.0930232558139" y1="347.0" x2="847.0930232558139" y2="334" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="842.0930232558139" y1="347.0" x2="847.0930232558139" y2="360" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="815.1162790697674" y="351.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">10</text>
+<polyline points="852.0930232558139,334 906.046511627907,334 906.046511627907,360 852.0930232558139,360 852.0930232558139,334" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="847.0930232558139" y1="334" x2="852.0930232558139" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="847.0930232558139" y1="360" x2="852.0930232558139" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="906.046511627907" y1="347.0" x2="911.046511627907" y2="334" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="906.046511627907" y1="347.0" x2="911.046511627907" y2="360" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="879.0697674418604" y="351.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">20</text>
+<polyline points="916.046511627907,334 970.0,334 970.0,360 916.046511627907,360 916.046511627907,334" fill="none" stroke="#1B6EB4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="911.046511627907" y1="334" x2="916.046511627907" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="911.046511627907" y1="360" x2="916.046511627907" y2="347.0" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="970.0" y1="347.0" x2="975.0" y2="334" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<line x1="970.0" y1="347.0" x2="975.0" y2="360" stroke="#1B6EB4" stroke-width="2" stroke-linecap="round"/>
+<text x="943.0232558139535" y="351.5" font-family="JetBrains Mono" font-size="12" fill="#0B3C6E" text-anchor="middle" font-weight="600">40</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#16324F"/>
+</marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#1B6EB4"/>
+</marker>
+</defs>
+<rect width="1000" height="400" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="46" rx="0" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<rect x="0" y="46" width="1000" height="4" rx="0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="24" y="30" font-family="Montserrat" font-size="21" fill="#FFFFFF" text-anchor="start" font-weight="700">Training timeline — 6 July to 6 August 2026 (120 hours, online)</text>
+<rect x="178.0" y="74" width="191.5" height="40" rx="8" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<text x="273.75" y="91" font-family="Montserrat" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="700">WEEK 1</text>
+<text x="273.75" y="107" font-family="Fira Sans" font-size="12" fill="#CFE0F0" text-anchor="middle">Jul 6–10</text>
+<rect x="375.5" y="74" width="191.5" height="40" rx="8" fill="#1B6EB4" stroke="none" stroke-width="2"/>
+<text x="471.25" y="91" font-family="Montserrat" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="700">WEEK 2</text>
+<text x="471.25" y="107" font-family="Fira Sans" font-size="12" fill="#CFE0F0" text-anchor="middle">Jul 11–17</text>
+<rect x="573.0" y="74" width="191.5" height="40" rx="8" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<text x="668.75" y="91" font-family="Montserrat" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="700">WEEK 3</text>
+<text x="668.75" y="107" font-family="Fira Sans" font-size="12" fill="#CFE0F0" text-anchor="middle">Jul 18–24</text>
+<rect x="770.5" y="74" width="191.5" height="40" rx="8" fill="#1B6EB4" stroke="none" stroke-width="2"/>
+<text x="866.25" y="91" font-family="Montserrat" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="700">WEEK 4–5</text>
+<text x="866.25" y="107" font-family="Fira Sans" font-size="12" fill="#CFE0F0" text-anchor="middle">Jul 25 – Aug 6</text>
+<text x="30" y="150" font-family="Montserrat" font-size="14.5" fill="#16324F" text-anchor="start" font-weight="700">Lectures</text>
+<rect x="175.0" y="132" width="193.5" height="23" rx="6" fill="#1B6EB4" stroke="none" stroke-width="2" opacity="0.93"/>
+<text x="183.0" y="148" font-family="Fira Sans" font-size="11.5" fill="#FFFFFF" text-anchor="start">Intro to Digital IC Design</text>
+<rect x="175.0" y="158" width="252.75" height="23" rx="6" fill="#0B3C6E" stroke="none" stroke-width="2" opacity="0.93"/>
+<text x="183.0" y="174" font-family="Fira Sans" font-size="11.5" fill="#FFFFFF" text-anchor="start">RTL Design Course (Verilog)</text>
+<rect x="441.625" y="132" width="84.875" height="23" rx="6" fill="#1B6EB4" stroke="none" stroke-width="2" opacity="0.93"/>
+<text x="449.625" y="148" font-family="Fira Sans" font-size="11.5" fill="#FFFFFF" text-anchor="start">FSM</text>
+<rect x="570.0" y="132" width="144.125" height="23" rx="6" fill="#0B3C6E" stroke="none" stroke-width="2" opacity="0.93"/>
+<text x="578.0" y="148" font-family="Fira Sans" font-size="11.5" fill="#FFFFFF" text-anchor="start">Static Timing Analysis</text>
+<text x="30" y="208" font-family="Montserrat" font-size="14.5" fill="#16324F" text-anchor="start" font-weight="700">Hands-on labs</text>
+<rect x="372.5" y="190" width="134.25" height="23" rx="6" fill="#1B6EB4" stroke="none" stroke-width="2" opacity="0.93"/>
+<text x="380.5" y="206" font-family="Fira Sans" font-size="11.5" fill="#FFFFFF" text-anchor="start">Labs 3–8: MUX→memory</text>
+<rect x="510.75" y="216" width="84.875" height="23" rx="6" fill="#0B3C6E" stroke="none" stroke-width="2" opacity="0.93"/>
+<text x="518.75" y="232" font-family="Fira Sans" font-size="11.5" fill="#FFFFFF" text-anchor="start">Funcs &amp; tasks</text>
+<rect x="599.625" y="190" width="154.0" height="23" rx="6" fill="#1B6EB4" stroke="none" stroke-width="2" opacity="0.93"/>
+<text x="607.625" y="206" font-family="Fira Sans" font-size="11.5" fill="#FFFFFF" text-anchor="start">Counters · seq-det · STA</text>
+<text x="30" y="266" font-family="Montserrat" font-size="14.5" fill="#16324F" text-anchor="start" font-weight="700">Capstone project</text>
+<rect x="575.925" y="248" width="35.5" height="23" rx="6" fill="#C9A227" stroke="none" stroke-width="2" opacity="0.93"/>
+<rect x="619.375" y="248" width="114.5" height="23" rx="6" fill="#0B3C6E" stroke="none" stroke-width="2" opacity="0.93"/>
+<text x="627.375" y="264" font-family="Fira Sans" font-size="11.5" fill="#FFFFFF" text-anchor="start">ECU suite RTL+TB</text>
+<rect x="741.825" y="248" width="65.125" height="23" rx="6" fill="#1B6EB4" stroke="none" stroke-width="2" opacity="0.93"/>
+<text x="30" y="324" font-family="Montserrat" font-size="14.5" fill="#16324F" text-anchor="start" font-weight="700">Report &amp; discussion</text>
+<rect x="810.95" y="306" width="150.04999999999995" height="23" rx="6" fill="#0B3C6E" stroke="none" stroke-width="2" opacity="0.93"/>
+<text x="818.95" y="322" font-family="Fira Sans" font-size="11.5" fill="#FFFFFF" text-anchor="start">Report writing &amp; defence</text>
+<line x1="175" y1="368" x2="965" y2="368" stroke="#D7E0E9" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="175.0" cy="368" r="6" fill="#C9A227" stroke="#0B3C6E" stroke-width="2"/>
+<text x="175.0" y="392" font-family="Montserrat" font-size="12.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">Jul 6</text>
+<text x="175.0" y="408" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">kick-off</text>
+<circle cx="372.5" cy="368" r="6" fill="#C9A227" stroke="#0B3C6E" stroke-width="2"/>
+<text x="372.5" y="392" font-family="Montserrat" font-size="12.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">Jul 11</text>
+<text x="372.5" y="408" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">labs start</text>
+<circle cx="575.925" cy="368" r="6" fill="#C9A227" stroke="#0B3C6E" stroke-width="2"/>
+<text x="575.925" y="392" font-family="Montserrat" font-size="12.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">Jul 19</text>
+<text x="575.925" y="408" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">proposal</text>
+<circle cx="692.45" cy="368" r="6" fill="#C9A227" stroke="#0B3C6E" stroke-width="2"/>
+<text x="692.45" y="392" font-family="Montserrat" font-size="12.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">Jul 23</text>
+<text x="692.45" y="408" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">project due</text>
+<circle cx="965.0" cy="368" r="6" fill="#C9A227" stroke="#0B3C6E" stroke-width="2"/>
+<text x="965.0" y="392" font-family="Montserrat" font-size="12.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">Aug 6</text>
+<text x="965.0" y="408" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">close-out</text>
+</svg>

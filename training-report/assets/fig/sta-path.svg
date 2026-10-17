@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#16324F"/>
+</marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#1B6EB4"/>
+</marker>
+</defs>
+<rect width="1000" height="330" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="46" rx="0" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<rect x="0" y="46" width="1000" height="4" rx="0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="24" y="30" font-family="Montserrat" font-size="21" fill="#FFFFFF" text-anchor="start" font-weight="700">Register-to-register timing path and the four path classes</text>
+<text x="976" y="30" font-family="Fira Sans" font-size="14" fill="#BFD6EA" text-anchor="end">Static timing analysis</text>
+<rect x="90" y="130" width="130" height="90" rx="10" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.6"/>
+<text x="155.0" y="171.0" font-family="Montserrat" font-size="20" fill="#0B3C6E" text-anchor="middle" font-weight="600">FF1</text>
+<text x="155.0" y="193.0" font-family="Fira Sans" font-size="12" fill="#5B6B7B" text-anchor="middle">launch</text>
+<rect x="330" y="140" width="200" height="70" rx="30" fill="#F3EDFA" stroke="#6B4FA0" stroke-width="2.4"/>
+<text x="430" y="170" font-family="Montserrat" font-size="16" fill="#6B4FA0" text-anchor="middle" font-weight="600">combinational</text>
+<text x="430" y="190" font-family="Montserrat" font-size="16" fill="#6B4FA0" text-anchor="middle" font-weight="600">cloud</text>
+<rect x="640" y="130" width="130" height="90" rx="10" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.6"/>
+<text x="705.0" y="171.0" font-family="Montserrat" font-size="20" fill="#0B3C6E" text-anchor="middle" font-weight="600">FF2</text>
+<text x="705.0" y="193.0" font-family="Fira Sans" font-size="12" fill="#5B6B7B" text-anchor="middle">capture</text>
+<line x1="220" y1="175" x2="326" y2="175" stroke="#16324F" stroke-width="2.6" marker-end="url(#ah)"/>
+<text x="273.0" y="165.0" font-family="JetBrains Mono" font-size="13" fill="#5B6B7B" text-anchor="middle">tCK2Q</text>
+<line x1="530" y1="175" x2="636" y2="175" stroke="#16324F" stroke-width="2.6" marker-end="url(#ah)"/>
+<text x="583.0" y="165.0" font-family="JetBrains Mono" font-size="13" fill="#5B6B7B" text-anchor="middle">Tcomb</text>
+<polyline points="155,220 155,252 705,252 705,222" fill="none" stroke="#C9A227" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="430" y="270" font-family="JetBrains Mono" font-size="13" fill="#C9A227" text-anchor="middle">clk (skew = Δ between launch and capture edges)</text>
+<text x="90" y="116" font-family="JetBrains Mono" font-size="12.5" fill="#5B6B7B" text-anchor="start">start point: clock pin of FF1</text>
+<text x="640" y="116" font-family="JetBrains Mono" font-size="12.5" fill="#5B6B7B" text-anchor="start">end point: D pin of FF2</text>
+<rect x="60" y="292" width="153.92" height="30" rx="15.0" fill="#FFFFFF" stroke="#1B6EB4" stroke-width="1.4"/>
+<text x="136.95999999999998" y="311.86" font-family="Montserrat" font-size="13.5" fill="#1B6EB4" text-anchor="middle" font-weight="600">input → register</text>
+<rect x="229.92" y="292" width="179.03" height="30" rx="15.0" fill="#FFFFFF" stroke="#0B3C6E" stroke-width="1.4"/>
+<text x="319.435" y="311.86" font-family="Montserrat" font-size="13.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">register → register</text>
+<rect x="424.95" y="292" width="162.29" height="30" rx="15.0" fill="#FFFFFF" stroke="#6B4FA0" stroke-width="1.4"/>
+<text x="506.09499999999997" y="311.86" font-family="Montserrat" font-size="13.5" fill="#6B4FA0" text-anchor="middle" font-weight="600">register → output</text>
+<rect x="603.24" y="292" width="245.99" height="30" rx="15.0" fill="#FFFFFF" stroke="#C9A227" stroke-width="1.4"/>
+<text x="726.235" y="311.86" font-family="Montserrat" font-size="13.5" fill="#C9A227" text-anchor="middle" font-weight="600">input → output (pure comb.)</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#16324F"/>
+</marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#1B6EB4"/>
+</marker>
+</defs>
+<rect width="1000" height="340" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="46" rx="0" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<rect x="0" y="46" width="1000" height="4" rx="0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="24" y="30" font-family="Montserrat" font-size="21" fill="#FFFFFF" text-anchor="start" font-weight="700">Integrated serial datapath: RAM → PISO → serial link → SIPO → ALU</text>
+<rect x="60" y="150" width="170" height="90" rx="12" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.6"/>
+<text x="145.0" y="191.0" font-family="Montserrat" font-size="22" fill="#0B3C6E" text-anchor="middle" font-weight="600">RAM</text>
+<text x="145.0" y="213.0" font-family="Fira Sans" font-size="12" fill="#5B6B7B" text-anchor="middle">32 × 20 · instruction memory</text>
+<rect x="285" y="150" width="170" height="90" rx="12" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.6"/>
+<text x="370.0" y="191.0" font-family="Montserrat" font-size="22" fill="#0B3C6E" text-anchor="middle" font-weight="600">PISO</text>
+<text x="370.0" y="213.0" font-family="Fira Sans" font-size="12" fill="#5B6B7B" text-anchor="middle">parallel-in · serial-out</text>
+<rect x="510" y="150" width="170" height="90" rx="12" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.6"/>
+<text x="595.0" y="191.0" font-family="Montserrat" font-size="22" fill="#0B3C6E" text-anchor="middle" font-weight="600">SIPO</text>
+<text x="595.0" y="213.0" font-family="Fira Sans" font-size="12" fill="#5B6B7B" text-anchor="middle">serial-in · parallel-out</text>
+<rect x="735" y="150" width="170" height="90" rx="12" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.6"/>
+<text x="820.0" y="191.0" font-family="Montserrat" font-size="22" fill="#0B3C6E" text-anchor="middle" font-weight="600">ALU</text>
+<text x="820.0" y="213.0" font-family="Fira Sans" font-size="12" fill="#5B6B7B" text-anchor="middle">opcode decode · + execute</text>
+<line x1="230" y1="190" x2="283" y2="190" stroke="#16324F" stroke-width="2.6" marker-end="url(#ah)"/>
+<text x="256" y="178" font-family="JetBrains Mono" font-size="11.5" fill="#5B6B7B" text-anchor="middle">ram_dout</text>
+<text x="256" y="166" font-family="JetBrains Mono" font-size="10.5" fill="#5B6B7B" text-anchor="middle">[19:0]</text>
+<line x1="230" y1="216" x2="283" y2="216" stroke="#16324F" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<text x="256" y="232" font-family="JetBrains Mono" font-size="10.5" fill="#5B6B7B" text-anchor="middle">ram_valid</text>
+<line x1="455" y1="195" x2="508" y2="195" stroke="#16324F" stroke-width="2.6" marker-end="url(#ah)"/>
+<text x="481" y="178" font-family="JetBrains Mono" font-size="11.5" fill="#5B6B7B" text-anchor="middle">PISO_out</text>
+<text x="481" y="166" font-family="JetBrains Mono" font-size="10.5" fill="#5B6B7B" text-anchor="middle">1 bit</text>
+<line x1="680" y1="195" x2="733" y2="195" stroke="#16324F" stroke-width="2.6" marker-end="url(#ah)"/>
+<text x="706" y="178" font-family="JetBrains Mono" font-size="11.5" fill="#5B6B7B" text-anchor="middle">parallel_out</text>
+<text x="706" y="166" font-family="JetBrains Mono" font-size="10.5" fill="#5B6B7B" text-anchor="middle">[19:0]</text>
+<polyline points="370,240 370,280 145,280 145,242" fill="none" stroke="#C0392B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="258" y="298" font-family="JetBrains Mono" font-size="12.5" fill="#C0392B" text-anchor="middle">en / piso_addr — PISO steers the RAM read address</text>
+<text x="60" y="62" font-family="Montserrat" font-size="15" fill="#0B3C6E" text-anchor="start" font-weight="700">20-bit instruction word</text>
+<rect x="60" y="72" width="120" height="34" rx="4" fill="#C9A227" stroke="none" stroke-width="2" opacity="0.9"/>
+<text x="120.0" y="88" font-family="JetBrains Mono" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="600">alu_en</text>
+<text x="120.0" y="118" font-family="JetBrains Mono" font-size="11.5" fill="#5B6B7B" text-anchor="middle">[19]</text>
+<rect x="180" y="72" width="200" height="34" rx="4" fill="#0B3C6E" stroke="none" stroke-width="2" opacity="0.9"/>
+<text x="280.0" y="88" font-family="JetBrains Mono" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="600">opcode</text>
+<text x="280.0" y="118" font-family="JetBrains Mono" font-size="11.5" fill="#5B6B7B" text-anchor="middle">[18:16]</text>
+<rect x="380" y="72" width="260" height="34" rx="4" fill="#1B6EB4" stroke="none" stroke-width="2" opacity="0.9"/>
+<text x="510.0" y="88" font-family="JetBrains Mono" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="600">in_a</text>
+<text x="510.0" y="118" font-family="JetBrains Mono" font-size="11.5" fill="#5B6B7B" text-anchor="middle">[15:8]</text>
+<rect x="640" y="72" width="260" height="34" rx="4" fill="#7FA8CE" stroke="none" stroke-width="2" opacity="0.9"/>
+<text x="770.0" y="88" font-family="JetBrains Mono" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="600">in_b</text>
+<text x="770.0" y="118" font-family="JetBrains Mono" font-size="11.5" fill="#5B6B7B" text-anchor="middle">[7:0]</text>
+</svg>

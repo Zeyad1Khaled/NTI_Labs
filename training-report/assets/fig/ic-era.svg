@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#16324F"/>
+</marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#1B6EB4"/>
+</marker>
+</defs>
+<rect width="1000" height="250" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="46" rx="0" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<rect x="0" y="46" width="1000" height="4" rx="0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="24" y="30" font-family="Montserrat" font-size="21" fill="#FFFFFF" text-anchor="start" font-weight="700">Six decades of integration: from valves to systems-on-chip</text>
+<text x="976" y="30" font-family="Fira Sans" font-size="14" fill="#BFD6EA" text-anchor="end">Introduction to Digital IC Design</text>
+<line x1="60" y1="130" x2="940" y2="130" stroke="#D7E0E9" stroke-width="3" stroke-linecap="round"/>
+<circle cx="90" cy="130" r="8" fill="#C0392B" stroke="#FFFFFF" stroke-width="2.5"/>
+<line x1="90" y1="120" x2="90" y2="112" stroke="#C0392B" stroke-width="1.8" stroke-linecap="round"/>
+<text x="90" y="104" font-family="Montserrat" font-size="16" fill="#C0392B" text-anchor="middle" font-weight="700">1940s</text>
+<text x="90" y="84" font-family="Montserrat" font-size="15" fill="#16324F" text-anchor="middle" font-weight="600">Vacuum tubes</text>
+<text x="90" y="64" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">room-sized computers,</text>
+<text x="90" y="79" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">kilowatts per gate</text>
+<circle cx="255" cy="130" r="8" fill="#C9A227" stroke="#FFFFFF" stroke-width="2.5"/>
+<line x1="255" y1="140" x2="255" y2="156" stroke="#C9A227" stroke-width="1.8" stroke-linecap="round"/>
+<text x="255" y="170" font-family="Montserrat" font-size="16" fill="#C9A227" text-anchor="middle" font-weight="700">1947</text>
+<text x="255" y="190" font-family="Montserrat" font-size="15" fill="#16324F" text-anchor="middle" font-weight="600">Transistor</text>
+<text x="255" y="208" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">Bardeen, Brattain &amp;</text>
+<text x="255" y="223" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">Shockley, Bell Labs</text>
+<circle cx="420" cy="130" r="8" fill="#1B6EB4" stroke="#FFFFFF" stroke-width="2.5"/>
+<line x1="420" y1="120" x2="420" y2="112" stroke="#1B6EB4" stroke-width="1.8" stroke-linecap="round"/>
+<text x="420" y="104" font-family="Montserrat" font-size="16" fill="#1B6EB4" text-anchor="middle" font-weight="700">1958–59</text>
+<text x="420" y="84" font-family="Montserrat" font-size="15" fill="#16324F" text-anchor="middle" font-weight="600">First IC</text>
+<text x="420" y="64" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">Kilby (TI) &amp; Noyce</text>
+<text x="420" y="79" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">(Fairchild)</text>
+<circle cx="585" cy="130" r="8" fill="#0B3C6E" stroke="#FFFFFF" stroke-width="2.5"/>
+<line x1="585" y1="140" x2="585" y2="156" stroke="#0B3C6E" stroke-width="1.8" stroke-linecap="round"/>
+<text x="585" y="170" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="700">1965</text>
+<text x="585" y="190" font-family="Montserrat" font-size="15" fill="#16324F" text-anchor="middle" font-weight="600">Moore's Law</text>
+<text x="585" y="208" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">count doubles</text>
+<text x="585" y="223" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">~ every 2 years</text>
+<circle cx="750" cy="130" r="8" fill="#6B4FA0" stroke="#FFFFFF" stroke-width="2.5"/>
+<line x1="750" y1="120" x2="750" y2="112" stroke="#6B4FA0" stroke-width="1.8" stroke-linecap="round"/>
+<text x="750" y="104" font-family="Montserrat" font-size="16" fill="#6B4FA0" text-anchor="middle" font-weight="700">1970s→</text>
+<text x="750" y="84" font-family="Montserrat" font-size="15" fill="#16324F" text-anchor="middle" font-weight="600">Microprocessor</text>
+<text x="750" y="64" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">CPU on a chip,</text>
+<text x="750" y="79" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">CAD + HDLs appear</text>
+<circle cx="905" cy="130" r="8" fill="#2E7D5B" stroke="#FFFFFF" stroke-width="2.5"/>
+<line x1="905" y1="140" x2="905" y2="156" stroke="#2E7D5B" stroke-width="1.8" stroke-linecap="round"/>
+<text x="905" y="170" font-family="Montserrat" font-size="16" fill="#2E7D5B" text-anchor="middle" font-weight="700">Today</text>
+<text x="905" y="190" font-family="Montserrat" font-size="15" fill="#16324F" text-anchor="middle" font-weight="600">SoC / FPGA</text>
+<text x="905" y="208" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">billions of devices,</text>
+<text x="905" y="223" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">reconfigurable silicon</text>
+</svg>

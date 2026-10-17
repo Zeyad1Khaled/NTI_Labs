@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#16324F"/>
+</marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#1B6EB4"/>
+</marker>
+</defs>
+<rect width="1000" height="430" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="46" rx="0" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<rect x="0" y="46" width="1000" height="4" rx="0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="24" y="30" font-family="Montserrat" font-size="21" fill="#FFFFFF" text-anchor="start" font-weight="700">Moore state diagram — overlapping detector for the sequence 110101</text>
+<circle cx="100" cy="250" r="33" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.8"/>
+<text x="100" y="249" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="700">S0</text>
+<text x="100" y="266" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">–</text>
+<circle cx="240" cy="160" r="33" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.8"/>
+<text x="240" y="159" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="700">S1</text>
+<text x="240" y="176" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">1</text>
+<circle cx="380" cy="250" r="33" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.8"/>
+<text x="380" y="249" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="700">S2</text>
+<text x="380" y="266" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">11</text>
+<circle cx="520" cy="160" r="33" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.8"/>
+<text x="520" y="159" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="700">S3</text>
+<text x="520" y="176" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">110</text>
+<circle cx="660" cy="250" r="33" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.8"/>
+<text x="660" y="249" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="700">S4</text>
+<text x="660" y="266" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">1101</text>
+<circle cx="800" cy="160" r="33" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.8"/>
+<text x="800" y="159" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="700">S5</text>
+<text x="800" y="176" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">11010</text>
+<circle cx="880" cy="320" r="33" fill="#E7F4EC" stroke="#2E7D5B" stroke-width="2.8"/>
+<text x="880" y="319" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="700">S6</text>
+<text x="880" y="336" font-family="JetBrains Mono" font-size="11" fill="#5B6B7B" text-anchor="middle">110101 ✓</text>
+<line x1="129.44124663817936" y1="231.07348430402755" x2="207.1940394603144" y2="181.08954606122646" stroke="#16324F" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="168.3176430492469" y="198.08151518262702" font-family="JetBrains Mono" font-size="13" fill="#16324F" text-anchor="middle" font-weight="600">1</text>
+<line x1="269.4412466381794" y1="178.92651569597245" x2="347.1940394603144" y2="228.91045393877354" stroke="#16324F" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="308.3176430492469" y="195.91848481737298" font-family="JetBrains Mono" font-size="13" fill="#16324F" text-anchor="middle" font-weight="600">1</text>
+<line x1="409.4412466381794" y1="231.07348430402755" x2="487.1940394603144" y2="181.08954606122646" stroke="#16324F" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="448.3176430492469" y="198.08151518262702" font-family="JetBrains Mono" font-size="13" fill="#16324F" text-anchor="middle" font-weight="600">0</text>
+<line x1="549.4412466381793" y1="178.92651569597245" x2="627.1940394603145" y2="228.91045393877354" stroke="#16324F" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="588.317643049247" y="195.91848481737298" font-family="JetBrains Mono" font-size="13" fill="#16324F" text-anchor="middle" font-weight="600">1</text>
+<line x1="689.4412466381793" y1="231.07348430402755" x2="767.1940394603145" y2="181.08954606122646" stroke="#16324F" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="728.317643049247" y="198.08151518262702" font-family="JetBrains Mono" font-size="13" fill="#16324F" text-anchor="middle" font-weight="600">0</text>
+<line x1="815.6524758424986" y1="191.30495168499706" x2="862.5586697755016" y2="285.1173395510033" stroke="#16324F" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="851.105572809" y="238.21114561800016" font-family="JetBrains Mono" font-size="13" fill="#16324F" text-anchor="middle" font-weight="600">1</text>
+<path d="M 240 193 Q 170 250 100 218" fill="none" stroke="#5B6B7B" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="170.0" y="241.75" font-family="JetBrains Mono" font-size="12.5" fill="#5B6B7B" text-anchor="middle" font-weight="600">0</text>
+<path d="M 520 193 Q 300 350 110 280" fill="none" stroke="#5B6B7B" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="307.5" y="309.25" font-family="JetBrains Mono" font-size="12.5" fill="#5B6B7B" text-anchor="middle" font-weight="600">0</text>
+<path d="M 800 193 Q 450 400 120 282" fill="none" stroke="#5B6B7B" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="455.0" y="334.75" font-family="JetBrains Mono" font-size="12.5" fill="#5B6B7B" text-anchor="middle" font-weight="600">0</text>
+<path d="M 362 222 Q 380 182 398 222" fill="none" stroke="#5B6B7B" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="380" y="176" font-family="JetBrains Mono" font-size="13" fill="#5B6B7B" text-anchor="middle" font-weight="600">0</text>
+<path d="M 642 222 Q 660 182 678 222" fill="none" stroke="#5B6B7B" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="660" y="176" font-family="JetBrains Mono" font-size="13" fill="#5B6B7B" text-anchor="middle" font-weight="600">1</text>
+<path d="M 848 330 Q 620 380 400 275" fill="none" stroke="#2E7D5B" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="622.0" y="359.25" font-family="JetBrains Mono" font-size="12.5" fill="#2E7D5B" text-anchor="middle" font-weight="600">1  (overlap: “11” reused)</text>
+<text x="880" y="372" font-family="JetBrains Mono" font-size="12.5" fill="#2E7D5B" text-anchor="middle">S6 asserts seq_detected</text>
+<text x="880" y="388" font-family="JetBrains Mono" font-size="12.5" fill="#2E7D5B" text-anchor="middle">for one clock cycle</text>
+<text x="100" y="300" font-family="JetBrains Mono" font-size="12.5" fill="#5B6B7B" text-anchor="middle">reset → S0</text>
+</svg>

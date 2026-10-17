@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#16324F"/>
+</marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#1B6EB4"/>
+</marker>
+</defs>
+<rect width="1000" height="260" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="46" rx="0" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<rect x="0" y="46" width="1000" height="4" rx="0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="24" y="30" font-family="Montserrat" font-size="21" fill="#FFFFFF" text-anchor="start" font-weight="700">The FPGA design flow used throughout the training</text>
+<text x="976" y="30" font-family="Fira Sans" font-size="14" fill="#BFD6EA" text-anchor="end">RTL → bitstream</text>
+<rect x="34" y="110" width="140" height="62" rx="10" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.4"/>
+<text x="104.0" y="137.0" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="600">RTL design</text>
+<text x="104.0" y="159.0" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">Verilog / SystemVerilog</text>
+<rect x="196" y="110" width="140" height="62" rx="10" fill="#E8F1FA" stroke="#0B3C6E" stroke-width="2.4"/>
+<text x="266.0" y="137.0" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="600">Simulation</text>
+<text x="266.0" y="159.0" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">ModelSim / Questa · Icarus</text>
+<line x1="176" y1="141.0" x2="193" y2="141.0" stroke="#16324F" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="358" y="110" width="140" height="62" rx="10" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.4"/>
+<text x="428.0" y="137.0" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="600">Synthesis</text>
+<text x="428.0" y="159.0" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">RTL → LUTs &amp; FFs</text>
+<line x1="338" y1="141.0" x2="355" y2="141.0" stroke="#16324F" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="520" y="110" width="140" height="62" rx="10" fill="#E8F1FA" stroke="#0B3C6E" stroke-width="2.4"/>
+<text x="590.0" y="137.0" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="600">Place &amp; route</text>
+<text x="590.0" y="159.0" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">inside the FPGA fabric</text>
+<line x1="500" y1="141.0" x2="517" y2="141.0" stroke="#16324F" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="682" y="110" width="140" height="62" rx="10" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.4"/>
+<text x="752.0" y="137.0" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="600">Bitstream</text>
+<text x="752.0" y="159.0" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">.bit / .bin generation</text>
+<line x1="662" y1="141.0" x2="679" y2="141.0" stroke="#16324F" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="844" y="110" width="140" height="62" rx="10" fill="#E7F4EC" stroke="#2E7D5B" stroke-width="2.4"/>
+<text x="914.0" y="137.0" font-family="Montserrat" font-size="16" fill="#0B3C6E" text-anchor="middle" font-weight="600">On-board test</text>
+<text x="914.0" y="159.0" font-family="Fira Sans" font-size="11.5" fill="#5B6B7B" text-anchor="middle">program &amp; verify</text>
+<line x1="824" y1="141.0" x2="841" y2="141.0" stroke="#16324F" stroke-width="2.4" marker-end="url(#ah)"/>
+<polyline points="266.0,172 266.0,206 104.0,206 104.0,175" fill="none" stroke="#C0392B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5"/>
+<text x="185.0" y="224" font-family="JetBrains Mono" font-size="13" fill="#C0392B" text-anchor="middle">fails? → fix RTL and re-simulate</text>
+</svg>

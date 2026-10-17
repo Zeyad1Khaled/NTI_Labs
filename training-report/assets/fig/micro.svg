@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#16324F"/>
+</marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#1B6EB4"/>
+</marker>
+</defs>
+<rect width="1000" height="330" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="46" rx="0" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<rect x="0" y="46" width="1000" height="4" rx="0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="24" y="30" font-family="Montserrat" font-size="21" fill="#FFFFFF" text-anchor="start" font-weight="700">VeriRISC-style control unit and register file</text>
+<text x="976" y="30" font-family="Fira Sans" font-size="14" fill="#BFD6EA" text-anchor="end">Labs 6 &amp; 7</text>
+<rect x="150" y="110" width="240" height="130" rx="12" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.6"/>
+<text x="270.0" y="171.0" font-family="Montserrat" font-size="22" fill="#0B3C6E" text-anchor="middle" font-weight="600">controller</text>
+<text x="270.0" y="193.0" font-family="Fira Sans" font-size="13" fill="#5B6B7B" text-anchor="middle">phase decode · opcode · zero</text>
+<rect x="640" y="110" width="240" height="130" rx="12" fill="#E8F1FA" stroke="#1B6EB4" stroke-width="2.6"/>
+<text x="760.0" y="171.0" font-family="Montserrat" font-size="22" fill="#0B3C6E" text-anchor="middle" font-weight="600">register</text>
+<text x="760.0" y="193.0" font-family="Fira Sans" font-size="13" fill="#5B6B7B" text-anchor="middle">parallel load · sync reset</text>
+<line x1="96" y1="140" x2="146" y2="140" stroke="#16324F" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="92" y="144" font-family="JetBrains Mono" font-size="13" fill="#16324F" text-anchor="end">opcode[2:0]</text>
+<line x1="96" y1="175" x2="146" y2="175" stroke="#16324F" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="92" y="179" font-family="JetBrains Mono" font-size="13" fill="#16324F" text-anchor="end">phase[2:0]</text>
+<line x1="96" y1="210" x2="146" y2="210" stroke="#16324F" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="92" y="214" font-family="JetBrains Mono" font-size="13" fill="#16324F" text-anchor="end">zero</text>
+<polyline points="390,175 470,175" fill="none" stroke="#16324F" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="430" y="160" font-family="JetBrains Mono" font-size="12" fill="#5B6B7B" text-anchor="middle">9 control lines</text>
+<polyline points="470,175 470,140 636,140" fill="none" stroke="#16324F" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="560" y="132" font-family="JetBrains Mono" font-size="12" fill="#5B6B7B" text-anchor="middle">ld_ir / ld_ac (load)</text>
+<polyline points="470,175 470,265 760,265 760,244" fill="none" stroke="#16324F" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="635" y="282" font-family="JetBrains Mono" font-size="12" fill="#5B6B7B" text-anchor="middle">sel · rd · wr · data_e · inc_pc · ld_pc · halt → datapath &amp; memory</text>
+<text x="900" y="155" font-family="JetBrains Mono" font-size="13.5" fill="#16324F" text-anchor="start">data_out[7:0]</text>
+<line x1="880" y1="150" x2="896" y2="150" stroke="#16324F" stroke-width="2.4" marker-end="url(#ah)"/>
+<text x="700" y="78" font-family="JetBrains Mono" font-size="13.5" fill="#16324F" text-anchor="middle">data_in[7:0]</text>
+<line x1="700" y1="84" x2="700" y2="106" stroke="#16324F" stroke-width="2.4" marker-end="url(#ah)"/>
+<text x="60" y="315" font-family="Fira Sans" font-size="13" fill="#5B6B7B" text-anchor="start">case (phase) decodes the fetch/execute phases; combinational conditions on opcode and zero drive every control line.</text>
+</svg>
