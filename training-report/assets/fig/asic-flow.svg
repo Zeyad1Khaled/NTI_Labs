@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#16324F"/>
+</marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#1B6EB4"/>
+</marker>
+</defs>
+<rect width="1000" height="430" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="46" rx="0" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<rect x="0" y="46" width="1000" height="4" rx="0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="24" y="30" font-family="Montserrat" font-size="21" fill="#FFFFFF" text-anchor="start" font-weight="700">The ASIC design flow — front-end vs back-end</text>
+<text x="976" y="30" font-family="Fira Sans" font-size="14" fill="#BFD6EA" text-anchor="end">Introduction to Digital IC Design · Part 4</text>
+<rect x="30" y="70" width="450" height="320" rx="12" fill="#F4F8FC" stroke="#1B6EB4" stroke-width="1.6" stroke-dasharray="6 4"/>
+<rect x="520" y="70" width="450" height="320" rx="12" fill="#FBF7EA" stroke="#C9A227" stroke-width="1.6" stroke-dasharray="6 4"/>
+<rect x="48" y="84" width="120" height="26" rx="13.0" fill="#1B6EB4" stroke="none" stroke-width="2"/>
+<text x="108.0" y="102.4" font-family="Montserrat" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="600">FRONT-END</text>
+<rect x="538" y="84" width="120" height="26" rx="13.0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="598.0" y="102.4" font-family="Montserrat" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="600">BACK-END</text>
+<rect x="60" y="124" width="190" height="38" rx="10" fill="#FFFFFF" stroke="#1B6EB4" stroke-width="2.4"/>
+<text x="155.0" y="148.4" font-family="Montserrat" font-size="15" fill="#0B3C6E" text-anchor="middle" font-weight="600">Specification</text>
+<rect x="60" y="174" width="190" height="38" rx="10" fill="#FFFFFF" stroke="#1B6EB4" stroke-width="2.4"/>
+<text x="155.0" y="198.4" font-family="Montserrat" font-size="15" fill="#0B3C6E" text-anchor="middle" font-weight="600">RTL design (Verilog)</text>
+<line x1="155" y1="162" x2="155" y2="173" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="60" y="224" width="190" height="38" rx="10" fill="#FFFFFF" stroke="#1B6EB4" stroke-width="2.4"/>
+<text x="155.0" y="248.4" font-family="Montserrat" font-size="15" fill="#0B3C6E" text-anchor="middle" font-weight="600">Functional verification</text>
+<line x1="155" y1="212" x2="155" y2="223" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="60" y="274" width="190" height="38" rx="10" fill="#FFFFFF" stroke="#1B6EB4" stroke-width="2.4"/>
+<text x="155.0" y="298.4" font-family="Montserrat" font-size="15" fill="#0B3C6E" text-anchor="middle" font-weight="600">Logic synthesis</text>
+<line x1="155" y1="262" x2="155" y2="273" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="60" y="324" width="190" height="38" rx="10" fill="#FFFFFF" stroke="#1B6EB4" stroke-width="2.4"/>
+<text x="155.0" y="348.4" font-family="Montserrat" font-size="15" fill="#0B3C6E" text-anchor="middle" font-weight="600">Gate-level verification</text>
+<line x1="155" y1="312" x2="155" y2="323" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="640" y="124" width="190" height="30" rx="10" fill="#FFFFFF" stroke="#C9A227" stroke-width="2.4"/>
+<text x="735.0" y="143.86" font-family="Montserrat" font-size="13.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">Floorplanning</text>
+<rect x="640" y="162" width="190" height="30" rx="10" fill="#FFFFFF" stroke="#C9A227" stroke-width="2.4"/>
+<text x="735.0" y="181.86" font-family="Montserrat" font-size="13.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">Placement</text>
+<line x1="735" y1="152" x2="735" y2="161" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="640" y="200" width="190" height="30" rx="10" fill="#FFFFFF" stroke="#C9A227" stroke-width="2.4"/>
+<text x="735.0" y="219.86" font-family="Montserrat" font-size="13.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">Clock-tree synthesis</text>
+<line x1="735" y1="190" x2="735" y2="199" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="640" y="238" width="190" height="30" rx="10" fill="#FFFFFF" stroke="#C9A227" stroke-width="2.4"/>
+<text x="735.0" y="257.86" font-family="Montserrat" font-size="13.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">Routing</text>
+<line x1="735" y1="228" x2="735" y2="237" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="640" y="276" width="190" height="30" rx="10" fill="#FFFFFF" stroke="#C9A227" stroke-width="2.4"/>
+<text x="735.0" y="295.86" font-family="Montserrat" font-size="13.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">Parasitic extraction</text>
+<line x1="735" y1="266" x2="735" y2="275" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="640" y="314" width="190" height="30" rx="10" fill="#FFFFFF" stroke="#C9A227" stroke-width="2.4"/>
+<text x="735.0" y="333.86" font-family="Montserrat" font-size="13.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">STA sign-off</text>
+<line x1="735" y1="304" x2="735" y2="313" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="640" y="352" width="190" height="30" rx="10" fill="#FFFFFF" stroke="#C9A227" stroke-width="2.4"/>
+<text x="735.0" y="371.86" font-family="Montserrat" font-size="13.5" fill="#0B3C6E" text-anchor="middle" font-weight="600">DRC / LVS → tape-out</text>
+<line x1="735" y1="342" x2="735" y2="351" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="155" y1="316" x2="155" y2="402" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="155" y1="402" x2="735" y2="402" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="735" y1="402" x2="735" y2="388" stroke="#16324F" stroke-width="2" marker-end="url(#ah)"/>
+<text x="445" y="420" font-family="JetBrains Mono" font-size="13" fill="#5B6B7B" text-anchor="middle">netlist hand-off</text>
+</svg>

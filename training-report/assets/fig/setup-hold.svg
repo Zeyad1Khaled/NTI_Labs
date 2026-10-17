@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#16324F"/>
+</marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+<path d="M 0 0.6 L 9.4 5 L 0 9.4 z" fill="#1B6EB4"/>
+</marker>
+</defs>
+<rect width="1000" height="320" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="46" rx="0" fill="#0B3C6E" stroke="none" stroke-width="2"/>
+<rect x="0" y="46" width="1000" height="4" rx="0" fill="#C9A227" stroke="none" stroke-width="2"/>
+<text x="24" y="30" font-family="Montserrat" font-size="21" fill="#FFFFFF" text-anchor="start" font-weight="700">Setup and hold windows around the capturing clock edge</text>
+<text x="976" y="30" font-family="Fira Sans" font-size="14" fill="#BFD6EA" text-anchor="end">STA · timing parameters</text>
+<text x="40" y="126" font-family="JetBrains Mono" font-size="15" fill="#16324F" text-anchor="start" font-weight="600">clk</text>
+<polyline points="120,160 120,160 120,120 180,120 180,160 240,160 240,120 300,120 300,160 360,160 360,120 420,120 420,160 480,160 480,120 540,120 540,160 600,160 600,120 660,120 660,160 720,160 720,120 780,120 780,160 840,160 840,120 900,120 900,160" fill="none" stroke="#0B3C6E" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="520" y1="102" x2="520" y2="270" stroke="#C0392B" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="520" y="94" font-family="JetBrains Mono" font-size="12.5" fill="#C0392B" text-anchor="middle">capturing edge</text>
+<text x="40" y="216" font-family="JetBrains Mono" font-size="15" fill="#16324F" text-anchor="start" font-weight="600">D</text>
+<polyline points="120,250 300,250 300,210 430,210 430,250 610,250 610,210 880,210" fill="none" stroke="#1B6EB4" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="360" y="200" font-family="JetBrains Mono" font-size="12" fill="#5B6B7B" text-anchor="middle">data may change</text>
+<text x="700" y="200" font-family="JetBrains Mono" font-size="12" fill="#5B6B7B" text-anchor="middle">data may change</text>
+<rect x="430" y="262" width="90" height="26" rx="4" fill="#FBE9E7" stroke="#C0392B" stroke-width="1.6"/>
+<text x="475.0" y="280" font-family="JetBrains Mono" font-size="13" fill="#C0392B" text-anchor="middle" font-weight="600">tsetup</text>
+<rect x="520" y="262" width="90" height="26" rx="4" fill="#E8F5E9" stroke="#2E7D5B" stroke-width="1.6"/>
+<text x="565.0" y="280" font-family="JetBrains Mono" font-size="13" fill="#2E7D5B" text-anchor="middle" font-weight="600">thold</text>
+<text x="520" y="300" font-family="Fira Sans" font-size="13" fill="#5B6B7B" text-anchor="middle">data must be stable from tsetup before until thold after the active edge — otherwise the flop may go metastable</text>
+</svg>
